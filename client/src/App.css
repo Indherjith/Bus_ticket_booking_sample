@@ -1,0 +1,62 @@
+.App{
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.LowerBerth, .UpperBerth{
+  width: 330px;
+  height: 550px;
+  margin: auto;
+  border: 1px solid yellowgreen;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.LowerBerth > h1, .UpperBerth > h1{
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.seats{
+  border: 1px solid green;
+  width: 50px;
+  height: 100px;
+}
+
+.seats1{
+  border: 1px solid green;
+  width: 40px;
+  height: 40px;
+}
+
+.seater{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.Lbed, .Ubed_Section2, .Ubed_Section1{
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.LowerBerth1{
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+}
+
+.UpperBerth1{
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+}
+
+.Ubed_Section2{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
